@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collezione>
+	<item n="0001" id="1006">
+	<genere>Diploma</genere>
+	<titolo-item>Messina, 1082</titolo-item>
+	<metadati>
+		<autore>Ruggero I</autore>
+		<data>1082</data>
+		<data-redazione>XII secolo(copia)</data-redazione>
+		<autenticità>incerta</autenticità>
+		<data-topica>Messina</data-topica>
+		<luogo-conservazione>Archivo Ducal de Medinaceli, Toledo</luogo-conservazione>
+		<segnatura>ADM, Fondo Mesina, perg. n.1006</segnatura>
+		<tipologia>Diploma</tipologia>
+		<supporto>Pergamena</supporto>
+		<edizioni>
+			<riferimento n="1">Pirri, Sicilia sacra I, p. 495.</riferimento>
+			<riferimento n="2">Starrabba, Diplomi, pp. 1-2 n. 1.</riferimento>
+			<riferimento n="3">Giunta, Donaria, pp. 97-99.</riferimento>
+			<riferimento n="4">Fulci, Storia, pp. 113-114 n. 1.</riferimento>
+			<riferimento n="5">Becker, Documenti, pp.49-52.</riferimento>
+		</edizioni>
+		<creazione-file>2022-06-21, 21.43</creazione-file>
+		<ultima-modifica>2022-06-21, 23.13</ultima-modifica>
+	</metadati>
+	</item>
+</collezione>

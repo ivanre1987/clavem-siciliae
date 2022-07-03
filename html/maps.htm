@@ -12,7 +12,7 @@
     <meta name="DC.Subject" content="Diplomatics, Medieval Messina, Norman Kingdom of Sicily, socio-economic history, documents, diplomas, notarial deeds">
     <meta name="DC.Description" content="The aim of the project Clavem Siciliae consists in the study of the city of Messina through diplomatic and literary sources produced in the XI-XII centuries.">
     <meta name="DC.Publisher"
-        content="Exercise done during the Digital Humanities course of the University of Bologna, 2021-22">
+        content="Progetto realizzato durante il corso di Digital Humanities e Patrimonio Culturale, Università di Bologna, a.a. 2021-22">
     <meta name="DC.Contributor"
         content="Ivan Re">
     <meta name="DC.Date" content="2022-06-15">
@@ -22,11 +22,12 @@
     <meta name="DC.Source" content="bootstrap, HTML, CSS, XML, dc">
     <meta name="DC.Language" content="it">
     <meta name="DC.Relation"
-        content="Inserisci dei riferimenti alle risorse collegate al sito web, possibilmente utilizzando identificazioni formali (per esempio, i codici ISBN per i libri)">
+        content="9788867282753; 9783412025847">
     <link rel="DC.Coverage"
-        href="Inserisci una localizzazione per il tuo sito web, possibilmente utilizzando un vocabolario controllato (per esempio, http://www.getty.edu/research/tools/vocabularies/tgn/)">
+        href="http://vocab.getty.edu/page/tgn/7594681">
     <meta name="DC.Rights"
-        content="Inserisci il tipo di licenza con cui intendi proteggere il tuo sito web (per esempio, fai riferimento a una delle licenze Creative Commons: https://creativecommons.org/share-your-work/)">
+        content="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it">
+    <link rel="icon" href="../favicon/clavem.ico" type="image/ico" sizes="16x16">
 
 	<!--bootstrap css-->
 
@@ -40,7 +41,7 @@
 <header style="background-color: #F0E68C;">
   <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #FAFAD2;">
   <div class="container-fluid">
-    <a class="navbar-brand fst-italic" href="#">Clavem Siciliae</a>
+    <a class="navbar-brand fst-italic">Clavem Siciliae</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -60,24 +61,23 @@
             Ricerche tematiche
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #FAFAD2;">
-            <li><a class="dropdown-item" href="#">Parole chiave</a></li>
+            <li><a class="dropdown-item" href="keywords.htm">Parole chiave</a></li>
             <li><a class="dropdown-item" href="#">Timeline</a></li>
             <li><a class="dropdown-item" href="maps.htm">Mappe</a></li>
             <li><a class="dropdown-item" href="#">Grafi</a></li>
           </ul>
         </li>
       </ul>
-
     </div>
   </div>
 </nav>
 </header>
 <hr>
-<section style="background-color: #F0E68C;">
+<section style="background-color: #F0E68C; max-width: 100%;">
 <div class="container">
 <hr>
 <hr>
-<h1 class="text-center">La mappa</h1>
+<h1 class="text-center">Le mappe</h1>
 </div>
 <div class="container-fluid">
   <div class="row">
@@ -85,12 +85,38 @@
       <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
           <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="../index.htm">Home</a></li>
-          <li class="breadcrumb-item" aria-current="page">Mappa storica</li>
+          <li class="breadcrumb-item" aria-current="page">Mappe</li>
           </ol>
       </nav>
     </div>
-    <div class="col-md-8">
-        <iframe src="https://uploads.knightlab.com/storymapjs/e9c20611d35beb0bf0b5793fcf919807/clavem-siciliae/index.html" frameborder="0" width="100%" height="520"></iframe>
+    <div class="col-md-4">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../immagini/storymap-capture.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">La mappa storica</h5>
+                <p class="card-text">Nella mappa, realizzata attraverso il tool Storymap di Knight Lab, sono localizzati i dati raccolti in questo corpus con collegamenti iper-testuali alle pagine dei documenti per comprendere il contesto storico e geografico di interesse.</p>
+                <a href="https://uploads.knightlab.com/storymapjs/e9c20611d35beb0bf0b5793fcf919807/clavem-siciliae/index.html" target="blank" class="btn btn-light" style="background-color: #F0E68C;">Esplora la mappa</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../immagini/tabula-rogeriana.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+          <div class="card-body">
+          <h5 class="card-title">Tabula Rogeriana</h5>
+            <p class="card-text">La Tabula Rogeriana è una riproduzione del <em>Kitāb Rugiār</em> composto dal geografo Edrisi, fu ideata da Konrad Miller nel 1929. Il Libro di Ruggero includeva la descrizione del mondo allora conosciuto fino alle punte estreme della Cina.</p>
+            <a href="https://uploads.knightlab.com/storymapjs/e9c20611d35beb0bf0b5793fcf919807/tabula-rogeriana/index.html" target="blank" class="btn btn-light" style="background-color: #F0E68C;">Esplora la mappa</a>
+        </div>
     </div>
   </div>
 </div>
@@ -99,8 +125,18 @@
         </div>
     <div class="col-md-2"></div>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 </section>
-<hr>
 <footer class="fixed-bottom">
   <div class="container-fluid">
     <h6 class="text-center">CC BY-NC-SA Ivan Re 2022</h6>

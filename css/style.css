@@ -1,3 +1,9 @@
-navbar light {
-  color: lightblue;
+header{
+  font-family: Arial;
+}
+
+h1{
+  font-family: sans-serif;
+  background-color: #FAFAD2;
+  color: black;
 }

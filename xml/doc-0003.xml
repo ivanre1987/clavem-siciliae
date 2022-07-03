@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Messina, 1082</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc0001</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Diploma</rs>
+                            <rs type="record_source" ref="#">Edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="1082">
+                                <note type="displayed_date">1082</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date">XII</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-06-28" who="students">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sancte et individue trinitatis. Anno ab incarnatione <date>domini
+                            millesimo octuagesimo secundo, inditione sexta</date>. Tempore domini
+                            <persName key="#Popes" ref="#people/3">Gregorii</persName> venerabilis
+                        presulis <orgName ref="#juridical_persons/1100">sedis apostolice</orgName>
+                        respexit deus oculo misericordie sue miserias Siciliensis ecclesię, quas
+                        passa est longa Sarracenorum oppressione. Felix dies et multa celebritate
+                        notandus, qua primum Siculorum fines aggressus Normannus. Proinde enim
+                        ecclesia domini roboratur, christianum nomen extollitur, clerus et populus
+                        christianus adaugetur, Sarracenorum vero multitudo confunditur. Felix terra,
+                        quę tantum et talem meruit habere comitem, per quem ecclesiasticum viget
+                        nomen et christianus populus suam recuperat dignitatem, gentilitas vero, ut
+                        dignum est, suam incurrit perniciem. Huius ergo laus non desinet in secula,
+                        cuius virtutis potentia Siciliensis surgit, ecclesia clericorum ordo iam
+                        revertitur ad summa. Ipse post obitum sit sibi premium, qui est ęcclesię
+                        primum fundamentum, detque pro meritis hoc sibi precium, celo possideat unde
+                        palatium. Hec sunt ergo donaria, que comes annuit: Primum quod libera
+                        ecclesia nunc caput erigit. Deinde quod presuli sedem instituit magnosque
+                        redditus ecclesie dedit, quo possit vivere, quicumque preerit. Ego <persName
+                            key="#Count" ref="#people/1">Rogerius</persName> dei gratia comes
+                        Sicilie ad honorem domini nostri Ihesu Christi et sancte dei genitricis
+                        Marie do et concedo supradicte <orgName key="#Dioecesis #Churches"
+                            ref="#juridical_persons/7000">Traianensi ęcclesie</orgName> et presuli,
+                        qui modo preest, et successoribus eius pro animę mee et parentum meorum
+                        redemptione absque omni calumpnia <placeName key="#Castle"
+                            ref="#places/7007">Taurianum</placeName> castrum cum omnibus
+                        pertinentiis suis et in valle Demine castrum, quod vocatur <placeName
+                            key="#Castle" ref="#places/7003">Achares</placeName>, et <rs
+                            key="#Slave_labour">decem villanos</rs> in civitate <placeName
+                            ref="#places/6999" key="#Cities">Traiana</placeName> et <rs key="#Mills"
+                            >unum molendinum</rs> in <rs key="#Rivers">flumine</rs>. Concedoque ei
+                        et successoribus eius omnes presbiteros episcopatus tam latinos quam graecos
+                        absque ulla quam mihi faciant et successoribus meis reddicione. Fines autem
+                        episcopatus hos constitui esse: a <placeName ref="#places/7004"
+                            key="#Cities">Messana</placeName> civitate usque ad <rs key="#Rivers"
+                            >flumen Corce</rs>. Omnes autem ęcclesias, civitates et castella cum
+                        vicis et villulis suis, que infra hos terminos continentur vel quandoque
+                        conti nebuntur iure episcopali, in dicione supradicti presulis et
+                        successorum suorum esse constitui. Nomina autem civitatum et castellorum hec
+                        sunt: Messana, <placeName ref="#places/7005" key="#Vici">Rimeta</placeName>,
+                            <placeName ref="#places/7006" key="#Cities">Melacium</placeName>,
+                            <placeName ref="#places/7007" key="#Cities">Tauromenium</placeName>,
+                            <placeName ref="#places/7008">Castellio</placeName>, <placeName
+                            ref="#places/7009">Sinagria</placeName>, <placeName ref="#places/7010"
+                            >Ficara</placeName>, <placeName ref="#places/7011">Fetelia</placeName>,
+                            <placeName ref="#places/7012">Nasa</placeName>, <placeName
+                            ref="#places/7012">Panagia</placeName>, <placeName ref="#places/7014"
+                            >Galath</placeName>, <placeName ref="#places/7015"
+                            >Turristudith</placeName>, Achares, <placeName ref="#places/7016"
+                            >Sanctus Marcus</placeName>, <placeName ref="#places/7017"
+                            >Miletum</placeName>, Traina civitas, Taurianum, <placeName
+                            ref="#places/7018">Galianum</placeName>, <placeName ref="#places/7019"
+                            >Ceranum</placeName>, <placeName ref="#places/7020"
+                            >Nicosinunum</placeName>, <placeName ref="#places/7021"
+                            >Sperlinga</placeName>, <placeName ref="#places/7022"
+                            >Mistretum</placeName>, <placeName ref="#places/7023">Tosa</placeName>,
+                            <placeName ref="#places/7024">Geraza</placeName>, <placeName
+                            ref="#places/7025">Petraheliea</placeName>, <placeName
+                            ref="#places/7026">Polithlaa</placeName>, <placeName ref="#places/7027"
+                            >Gibelmana</placeName>, <placeName ref="#places/7028"
+                            >Crateraa</placeName>, <placeName ref="#places/7029" key="#Cities"
+                            >Cephaluth</placeName>, <placeName ref="#places/7030"
+                            >Golesanum</placeName>, <placeName ref="#places/7031"
+                            >Rocamaris</placeName>, <placeName ref="#places/7032"
+                            >Calatabutor</placeName>, <placeName ref="#places/7033"
+                            >Sclafaa</placeName>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Pirri, Sicilia sacra I, p. 495; Starrabba, Diplomi, pp. 1-2 n. 1; Giunta,
+                    Donaria, pp. 97-99; Fulci, Storia, pp. 113-114 n. 1; Becker, Documenti,
+                    pp.49-52.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

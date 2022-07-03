@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="collezione">
+	<item n="0001" id="collezione-1006">
+	<genere>Diploma</genere>
+	<titolo-item>Messina, 1091</titolo-item>
+	<metadati>
+		<dc:title></dc:title>
+		<dc:creator id="http://viaf.org/viaf/261138747">Ruggero I</dc:creator>
+		<dc:date>1091-10</dc:date>
+		<dc:created>XII secolo(copia)</dc:created>
+		<dc:identifier tipo="digitale">https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/373386</dc:identifier>
+		<dc:identifier tipo="permalink"></dc:identifier>
+		<dc:identifier tipo="segnatura">ASP, TSFF 02</dc:identifier>
+		<dc:identifier tipo="unità documentaria">ICAR UD 373386</dc:identifier>
+		<dc:description>Sigillo di Ruggero I indirizzato all'abate di S.Filippo di Demenna.</dc:description>
+		<dc:format>Pergamena</dc:format>
+		<dc:language>Greco</dc:language>
+		<dc:coverage id="http://vocab.getty.edu/page/tgn/7594681">Regno di Sicilia</dc:coverage>
+		<dc:subject n="1">Diplomatica</dc:subject>
+		<dc:subject n="2">Ruggero I</dc:subject>
+		<dc:subject n="3">Privilegi</dc:subject>
+		<dc:subject n="2">S. Filippo di Demenna</dc:subject>
+		<dc:bibliographicCitation n="1">Cusa, Diplomi, pp. 385-87.</dc:bibliographicCitation>
+		<dc:bibliographicCitation n="2">Spata, Per. Gr. AP, pp. 163-65..</dc:bibliographicCitation>
+		<dc:bibliographicCitation n="3">Becker, Documenti, pp. 89-91.</dc:bibliographicCitation>
+		<dc:rights>CC BY-NC-SA</dc:rights>
+		<dc:created>2022-07-01, 22.37</dc:created>	
+	</metadati>
+	</item>
+</collezione>

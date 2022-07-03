@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collezione>
+	<item n="0001" id="1006">
+	<genere>Diploma</genere>
+	<titolo-item>Messina, 1091</titolo-item>
+	<metadati>
+		<autore>Ruggero I</autore>
+		<data>1091-10</data>
+		<data-redazione>XII secolo(copia)</data-redazione>
+		<autenticità>Si</autenticità>
+		<data-topica>Messina</data-topica>
+		<luogo-conservazione>Archivio di Stato di Palermo, Tabulario di S. Filippo di Fragalà</luogo-conservazione>
+		<segnatura>ASP, TSFF 02</segnatura>
+		<identificativo>ICAR UD 373386</identificativo>
+		<tipologia>Privilegio</tipologia>
+		<supporto>Pergamena</supporto>
+		<soggetti>
+			
+		</soggetti>
+		<edizioni>
+			<riferimento n="1">Cusa, Diplomi, pp. 385-87.</riferimento>
+			<riferimento n="2">Spata, Per. Gr. AP, pp. 163-65.</riferimento>
+			<riferimento n="3">Becker, Documenti, pp. 89-91.</riferimento>
+		</edizioni>
+		<creazione-file>2022-07-01, 22.31</creazione-file>
+		<ultima-modifica>2022-07-01, 22.31</ultima-modifica>
+	</metadati>
+	</item>
+</collezione>

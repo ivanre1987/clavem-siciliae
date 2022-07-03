@@ -10,23 +10,24 @@
     <meta name="DC.Title" content="Clavem Siciliae">
     <meta name="DC.Creator" content="Ivan Re">
     <meta name="DC.Subject" content="Diplomatics, Medieval Messina, Norman Kingdom of Sicily, socio-economic history, documents, diplomas, notarial deeds">
-    <meta name="DC.Description" content="The aim of the project Clavem Siciliae consists in the study of the city of Messina through diplomatic and literary sources produced in the XI-XII centuries.">
+    <meta name="DC.Description" content="The aim of the project Clavem Siciliae consists in the study of the city of Messina through primary and literary sources produced in the XI-XII centuries.">
     <meta name="DC.Publisher"
-        content="Exercise done during the Digital Humanities course of the University of Bologna, 2021-22">
+        content="Progetto realizzato durante il corso di Digital Humanities e Patrimonio Culturale, Università di Bologna, a.a. 2021-22">
     <meta name="DC.Contributor"
         content="Ivan Re">
     <meta name="DC.Date" content="2022-06-15">
     <meta name="DC.Type" content="Sito web">
     <meta name="DC.Format" content="HTML/CSS/JS">
-    <link rel="DC.Identifier" href="https://www.nomedelsitoweb.github.io">
-    <meta name="DC.Source" content="bootstrap, HTML, CSS, XML, dc">
+    <link rel="DC.Identifier" href="https://ivanre1987.github.io/clavem-siciliae/">
+    <meta name="DC.Source" content="bootstrap, HTML, CSS, XML, Dublin Core">
     <meta name="DC.Language" content="it">
     <meta name="DC.Relation"
-        content="Inserisci dei riferimenti alle risorse collegate al sito web, possibilmente utilizzando identificazioni formali (per esempio, i codici ISBN per i libri)">
+        content="9788867282753; 9783412025847">
     <link rel="DC.Coverage"
-        href="Inserisci una localizzazione per il tuo sito web, possibilmente utilizzando un vocabolario controllato (per esempio, http://www.getty.edu/research/tools/vocabularies/tgn/)">
+        href="http://vocab.getty.edu/page/tgn/7594681">
     <meta name="DC.Rights"
-        content="Inserisci il tipo di licenza con cui intendi proteggere il tuo sito web (per esempio, fai riferimento a una delle licenze Creative Commons: https://creativecommons.org/share-your-work/)">
+        content="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it">
+    <link rel="icon" href="../favicon/clavem.ico" type="image/ico" sizes="16x16">
 
 	<!--bootstrap css-->
 
@@ -40,7 +41,7 @@
 <header style="background-color: #F0E68C;">
   <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #FAFAD2;">
   <div class="container-fluid">
-    <a class="navbar-brand fst-italic" href="#">Clavem Siciliae</a>
+    <a class="navbar-brand fst-italic">Clavem Siciliae</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -60,14 +61,13 @@
             Ricerche tematiche
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #FAFAD2;">
-            <li><a class="dropdown-item" href="#">Parole chiave</a></li>
+            <li><a class="dropdown-item" href="keywords.htm">Parole chiave</a></li>
             <li><a class="dropdown-item" href="#">Timeline</a></li>
-            <li><a class="dropdown-item" href="#">Mappa</a></li>
+            <li><a class="dropdown-item" href="maps.htm">Mappe</a></li>
             <li><a class="dropdown-item" href="#">Grafi</a></li>
           </ul>
         </li>
       </ul>
-
     </div>
   </div>
 </nav>
@@ -81,7 +81,7 @@
 </div>
 <div class="container-fluid">
   <div class="row">
-    <div class="col-2">
+    <div class="col-md-2">
       <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
           <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="../index.htm">Home</a></li>
@@ -94,12 +94,12 @@
       <button type="button" class="btn btn-secondary btn-lg">Luogo ⇵</button>
       <hr>
       <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
             Autore
           </button>
         </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
@@ -134,7 +134,7 @@
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
           <label class="form-check-label" for="flexCheckDefault">
-            Ugo, arcivescovo (2)
+            Ugo, arcivescovo <abbr title="Arcidiocesi di Messina">Me</abbr> (2)
           </label>
         </div>
         <div class="form-check">
@@ -146,7 +146,7 @@
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
           <label class="form-check-label" for="flexCheckDefault">
-            Gregorio, categumeno (1)
+            Gregorio, categumeno <abbr title="S. Filippo di Demenna">SFD</abbr> (1)
           </label>
         </div>
         <div class="form-check">
@@ -164,7 +164,7 @@
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
           <label class="form-check-label" for="flexCheckDefault">
-            Gugliemo, arcivescovo (1)
+            Gugliemo, arcivescovo <abbr title="Arcidiocesi di Messina">Me</abbr>(1)
           </label>
         </div>
         <div class="form-check">
@@ -188,7 +188,7 @@
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
           <label class="form-check-label" for="flexCheckDefault">
-            Luca, archimandrita (1)
+            Luca, archimandrita <abbr title="S. Salvatore di Messina">SSPh</abbr> (1)
           </label>
         </div>
         <div class="form-check">
@@ -242,6 +242,208 @@
           </div>
         </div>
       </div>
+      <hr>
+      <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Destinatari
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Tutti (40)
+              </label>
+            </div>
+          </div>  
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Gregorio, categumeno <abbr title="S. Filippo di Demenna">SFD</abbr> (12)
+              </label>
+            </div>
+           </div>  
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Roberto, vescovo <abbr title="Diocesi di Messina">Me</abbr> (2)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Luca, archimandrita <abbr title="S. Salvatore in lingua Phari, Messina">SSPh</abbr> (2)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Giovanni, abate <abbr title="Lipari">Lp</abbr> (2)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Giovanni, arcivescovo <abbr title="Arcidiocesi Messina">Me</abbr> (2)
+              </label>
+            </div>
+           </div>  
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Gregorio, vescovo <abbr title="Diocesi di Traina">Tr</abbr> (1)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Teodosio, abate <abbr title="S. Michele Arcangelo">SMA</abbr> (1)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Chremete, abate <abbr title="Placa">Pl</abbr> (1)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Cosimo, categumeno <abbr title="S. Marco di Demenna">SMD</abbr> (1)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Gualtiero Gavarretta (1)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Gregorio, categumeno <abbr title="S.Filippo di Demenna">SFD</abbr> (1)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Populus di Alcara (1)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Ansaldo, vicecomite (1)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                <abbr title="S. Maria di Galat">SMG</abbr>, monastero (1)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Chiesa di Lipari (1)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Richilde, abatessa <abbr title="S. Maria di Messina">SMD</abbr> (1)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Costantino Castello (1)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Giberto Pirollio (1)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Roberto, arcivescovo <abbr title="Arcidiocesi di Messina">Me</abbr> (1)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Guirardo, arcivescovo <abbr title="Arcidiocesi di Messina">Me</abbr> (1)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                <abbr title="S.Giovanni dei gerosolimitani in Messina">SGG</abbr> (1)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Arnaldo, arcivescovo <abbr title="Arcidiocesi di Messina">Me</abbr> (1)
+              </label>
+            </div>
+            </div>
+            <div class="accordion-body">
+                <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Goffredo, arcivescovo <abbr title="Arcidiocesi di Messina">Me</abbr> (1)
+              </label>
+            </div>
+          </div>
+      </div>
+    </div>
       <hr>
       <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
@@ -317,7 +519,7 @@
           </div>
         </div>
       </div>
-    <div class="col-9">
+    <div class="col-md-8">
       <table class="table table-hover">
         <thead>
               <tr>
@@ -341,7 +543,7 @@
                 <td>1087-07</td>
               </tr>
               <tr>
-                <th scope="row">0003</th>
+                <th scope="row"><a href="0003.htm">0003</a></th>
                 <td>Sigillo di Ruggero I indirizzato all'abate di S.Filippo di Demenna.</td>
                 <td>Messina</td>
                 <td>1091-10</td>
@@ -413,7 +615,16 @@
               </ul>
           </nav>
         </div>
-    <div class="col-1"></div>
+    <div class="col-md-2">
+    <br>
+    <br>
+    <br>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Ricerca libera" aria-label="Search">
+        <button class="btn btn-outline-dark" type="submit">Cerca</button>
+      </form>
+      <h7><a href="">Ricerca avanzata</a>
+    </div>
 </div>
 </section>
 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="collezione">
+	<item n="0001" id="collezione-1006">
+	<genere>Diploma</genere>
+	<titolo-item>Messina, 1082</titolo-item>
+	<metadati>
+		<dc:title></dc:title>
+		<dc:creator id="http://viaf.org/viaf/261138747">Ruggero I</dc:creator>
+		<dc:date>1082</dc:date>
+		<dc:created>XII secolo(copia)</dc:created>
+		<dc:identifier tipo="digitale">https://hdl.loc.gov/loc.music/musemnotation.100004</dc:identifier>
+		<dc:identifier tipo="permalink">https://lccn.loc.gov/2009536458</dc:identifier>
+		<dc:identifier tipo="segnatura">ADM, Fondo Mesina, perg. n.1006</dc:identifier>
+		<dc:description>Ruggero I dona alla chiesa di Traina i castelli di Tauriano e Alcara, dieci villani di Traina e un mulino.</dc:description>
+		<dc:format>Pergamena</dc:format>
+		<dc:language>Latino</dc:language>
+		<dc:coverage id="http://vocab.getty.edu/page/tgn/7594681">Regno di Sicilia</dc:coverage>
+		<dc:subject n="1">Diplomatica</dc:subject>
+		<dc:subject n="2">Ruggero I</dc:subject>
+		<dc:subject n="3">Privilegi e immunità</dc:subject>
+		<dc:subject n="2">Diocesi di Traina</dc:subject>
+		<dc:bibliographicCitation n="1">Pirri, Sicilia sacra I, p. 495.</dc:bibliographicCitation>
+		<dc:bibliographicCitation n="2">Starrabba, Diplomi, pp. 1-2 n. 1.</dc:bibliographicCitation>
+		<dc:bibliographicCitation n="3">Giunta, Donaria, pp. 97-99.</dc:bibliographicCitation>
+		<dc:bibliographicCitation n="4">Fulci, Storia, pp. 113-114 n. 1.</dc:bibliographicCitation>
+		<dc:bibliographicCitation n="5">Becker, Documenti, pp.49-52.</dc:bibliographicCitation>
+		<dc:rights>CC BY-NC-SA</dc:rights>
+		<dc:created>2022-06-21, 18.22</dc:created>	
+	</metadati>
+	</item>
+</collezione>

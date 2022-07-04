@@ -6,8 +6,11 @@ I documenti raccolti nel sito rispondono a criteri di selezione mirati. Anzitutt
 
 # Vocabolari controllati
 VIAF - The Virtual International Authority File
+
 LCSH - Library of Congress Subject Headings
+
 TGN - Getty Thesaurus of Geographic Names
+
 Fiscus Thesaurus
 
 

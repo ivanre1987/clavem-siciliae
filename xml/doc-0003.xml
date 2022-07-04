@@ -4,15 +4,15 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Messina, 1082</title>
+                <title>Messina, 1091</title>
             </titleStmt>
             <editionStmt>
-                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
-                    <date when="2021">2021</date>
+                <edition>Digital edition encoded for <ref target="https://ivanre1987.github.io/clavem-siciliae/">Clavem Siciliae</ref>
+                    <date when="2021">2022</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <publisher>Fiscus - DISCI UniBo</publisher>
+                <publisher>Ivan Re</publisher>
                 <idno type="filename">doc0001</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
@@ -30,8 +30,8 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#">-Diploma</rs>
-                            <rs type="record_source" ref="#">Edition</rs>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property">Uncertain</rs>
                         </summary>
@@ -41,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="1082">
-                                <note type="displayed_date">1082</note>
+                            <origDate>
+                                <note type="displayed_date">1091-10</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Messina</note>
                                 <note type="redaction_date">XII</note>
                             </origDate>
                             <origPlace/>
@@ -81,77 +81,49 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine sancte et individue trinitatis. Anno ab incarnatione <date>domini
-                            millesimo octuagesimo secundo, inditione sexta</date>. Tempore domini
-                            <persName key="#Popes" ref="#people/3">Gregorii</persName> venerabilis
-                        presulis <orgName ref="#juridical_persons/1100">sedis apostolice</orgName>
-                        respexit deus oculo misericordie sue miserias Siciliensis ecclesię, quas
-                        passa est longa Sarracenorum oppressione. Felix dies et multa celebritate
-                        notandus, qua primum Siculorum fines aggressus Normannus. Proinde enim
-                        ecclesia domini roboratur, christianum nomen extollitur, clerus et populus
-                        christianus adaugetur, Sarracenorum vero multitudo confunditur. Felix terra,
-                        quę tantum et talem meruit habere comitem, per quem ecclesiasticum viget
-                        nomen et christianus populus suam recuperat dignitatem, gentilitas vero, ut
-                        dignum est, suam incurrit perniciem. Huius ergo laus non desinet in secula,
-                        cuius virtutis potentia Siciliensis surgit, ecclesia clericorum ordo iam
-                        revertitur ad summa. Ipse post obitum sit sibi premium, qui est ęcclesię
-                        primum fundamentum, detque pro meritis hoc sibi precium, celo possideat unde
-                        palatium. Hec sunt ergo donaria, que comes annuit: Primum quod libera
-                        ecclesia nunc caput erigit. Deinde quod presuli sedem instituit magnosque
-                        redditus ecclesie dedit, quo possit vivere, quicumque preerit. Ego <persName
-                            key="#Count" ref="#people/1">Rogerius</persName> dei gratia comes
-                        Sicilie ad honorem domini nostri Ihesu Christi et sancte dei genitricis
-                        Marie do et concedo supradicte <orgName key="#Dioecesis #Churches"
-                            ref="#juridical_persons/7000">Traianensi ęcclesie</orgName> et presuli,
-                        qui modo preest, et successoribus eius pro animę mee et parentum meorum
-                        redemptione absque omni calumpnia <placeName key="#Castle"
-                            ref="#places/7007">Taurianum</placeName> castrum cum omnibus
-                        pertinentiis suis et in valle Demine castrum, quod vocatur <placeName
-                            key="#Castle" ref="#places/7003">Achares</placeName>, et <rs
-                            key="#Slave_labour">decem villanos</rs> in civitate <placeName
-                            ref="#places/6999" key="#Cities">Traiana</placeName> et <rs key="#Mills"
-                            >unum molendinum</rs> in <rs key="#Rivers">flumine</rs>. Concedoque ei
-                        et successoribus eius omnes presbiteros episcopatus tam latinos quam graecos
-                        absque ulla quam mihi faciant et successoribus meis reddicione. Fines autem
-                        episcopatus hos constitui esse: a <placeName ref="#places/7004"
-                            key="#Cities">Messana</placeName> civitate usque ad <rs key="#Rivers"
-                            >flumen Corce</rs>. Omnes autem ęcclesias, civitates et castella cum
-                        vicis et villulis suis, que infra hos terminos continentur vel quandoque
-                        conti nebuntur iure episcopali, in dicione supradicti presulis et
-                        successorum suorum esse constitui. Nomina autem civitatum et castellorum hec
-                        sunt: Messana, <placeName ref="#places/7005" key="#Vici">Rimeta</placeName>,
-                            <placeName ref="#places/7006" key="#Cities">Melacium</placeName>,
-                            <placeName ref="#places/7007" key="#Cities">Tauromenium</placeName>,
-                            <placeName ref="#places/7008">Castellio</placeName>, <placeName
-                            ref="#places/7009">Sinagria</placeName>, <placeName ref="#places/7010"
-                            >Ficara</placeName>, <placeName ref="#places/7011">Fetelia</placeName>,
-                            <placeName ref="#places/7012">Nasa</placeName>, <placeName
-                            ref="#places/7012">Panagia</placeName>, <placeName ref="#places/7014"
-                            >Galath</placeName>, <placeName ref="#places/7015"
-                            >Turristudith</placeName>, Achares, <placeName ref="#places/7016"
-                            >Sanctus Marcus</placeName>, <placeName ref="#places/7017"
-                            >Miletum</placeName>, Traina civitas, Taurianum, <placeName
-                            ref="#places/7018">Galianum</placeName>, <placeName ref="#places/7019"
-                            >Ceranum</placeName>, <placeName ref="#places/7020"
-                            >Nicosinunum</placeName>, <placeName ref="#places/7021"
-                            >Sperlinga</placeName>, <placeName ref="#places/7022"
-                            >Mistretum</placeName>, <placeName ref="#places/7023">Tosa</placeName>,
-                            <placeName ref="#places/7024">Geraza</placeName>, <placeName
-                            ref="#places/7025">Petraheliea</placeName>, <placeName
-                            ref="#places/7026">Polithlaa</placeName>, <placeName ref="#places/7027"
-                            >Gibelmana</placeName>, <placeName ref="#places/7028"
-                            >Crateraa</placeName>, <placeName ref="#places/7029" key="#Cities"
-                            >Cephaluth</placeName>, <placeName ref="#places/7030"
-                            >Golesanum</placeName>, <placeName ref="#places/7031"
-                            >Rocamaris</placeName>, <placeName ref="#places/7032"
-                            >Calatabutor</placeName>, <placeName ref="#places/7033"
-                            >Sclafaa</placeName>.</ab>
+                    <ab>+ Σιγίλλιον γενάμενον παρ’ἐμοῦ ῾Ροκέρη κόμητος Καλαβρίας καὶ Σικελήας καὶ
+                        ἐπεδωθὲν πρὸς σὲ τὸν κῦρ Γρηγόριον καθηγούμενον μονῆς Ἁγίου Φιλίππου
+                        Μηλητηροῦ μηνῆ Ὀκτωβρίω ἰνδικτιῶνοςιδ’. Ἐπειδῆ κ(α)τὰ τὸν ῥηθέντα Ὀκτώβριον
+                        μῆνα τῆς ιδ’ ἰνδικτιῶνος τὰς διατριβάς μου ἐν τῶ ἐμῶ ἄστει Μεσήνης ποιῶν
+                        ἤκες πρός μὲ σὺ ὁ ῥηθεῖς καθηγούμενος τοῦ Ἁγίου Φιλίππου Δεμέννων τῆ
+                        ἐπονοιμήα Μηλητηροῦ σὺν ἑτέρων τῶν συνόντων σοι μοναχῶν καὶ ἥτησας με τοῦ
+                        ἀνακενῆσαι τὸν Ἁγίον Θαλλαιλαίον τοῦ εἶναι μετόχιον τοῦ Ἁγίου Φιλίππου εἰς
+                        τὸ δουλεύειν καὶ συνεῖναι μετ’αὐτῆς τῆς προλεχθεῖσης ἁγίας μονῆς τοῦ Ἁγίου
+                        Φιλίππου·καὶ δὴ ἧξα τῆ αὐτῶν αἰτήση καὶ ἔδωκα αὐτῶν τοῦτον ὑπὲρ ψυχηκῆς μου
+                        σωτηρίας καὶ τοῦ εὑρεῖν ἐν ἐκείνη τῖ ἡμέρα ἔλεως· δέδωκα δὲ αὐτοῖς καὶ
+                        χωράφια πλησεῖον τῆς μονῆς τοῦ Ἁγίου Θαλλαιλέω πρὸς διατροφὴν τῶν ἐκεῖσαι
+                        μοναχῶν καὶ ὅρησας τὸν τότε μου βεσκόμητα τοὔνομα Ῥομβέρτον τοῦ διαχωρήσαι
+                        αὐτοῖς χωράφια τὰ ἀρκοῦντα τῆς μονῆς· καὶ εἰσὶν ταῦτα ται πλησῖον τοῦ μακρὶ
+                        λιθαρίου, τὴν ἐμὴν κολτούραν καὶ ἕτερα χωράφια ὃ καὶ ἐποίησεν καὶ ἔστιν ὁ
+                        διαχωρισμὸς αὐτῶν τῶν χωραφίων οὕτως· ὡς ἐξέρχεται ἡ μέση στράτα τοῦ Κάμπου
+                        ἄχρη τοῦ ἀλωνίου τοῦ Δωρφὴ κατὰ ἀνατωλὰς καὶ ἀναβένη εἰς τὸ ῥίακην τοῦ Ἁγίου
+                        Θαλλαιλέου τὸ ἀνατοληκὸν, κἀκεῖθεν τὸ ἄκρον τοῦ ὄρους καὶ τὸ κάτω μέρος ἕως
+                        τοῦ ῥίακως τοῦ Κριτικοῦ. Κἀκεῖθεν ἀναβένη ὁ ῥίαξ τοῦ Κριτικοῦ ἐν ὦ τὸ ὕδωρ
+                        ἕως τοῦ μαύρου λίθου τοῦ κατὰ δυσμὰς τοῦ ῥίακος, κἀκεῖθεν ἀναβένη ὁ ῥίαξ ἕως
+                        εἰς τὸν ἄνω πτελερὰν ἐν ὦ καὶ τὸ ὕδωρ ὑπάρχει τὸ ἀνομβρητὸν τὸ κατὰ δυσμὰς
+                        τοῦ ῥύακος, καὶ ἐκ τὰ χωράφια τοῦ Γαλεγρῖτη καὶ τὸ χωράφιον τοῦ Ῥηγηνοῦ εἰς
+                        τὸ χετάριν ἐν ὦ ἡ βίγλα, κἀκεῖθεν τρακλὰ ἐπάνωθεν τῆς ἄνω ὡδοῦ κατὰ δυσμὰς
+                        ἕως τῶν χωραφίων Ῥηγητᾶνου εἰς τὴν φώσσαν, καὶ εἰς τὰ χωράφια Βεντάγια τὰ
+                        ἐπάνω τῆς τρακλῆς ὡδοῦ. Καὶ ἀποδίδη εἰς τὸν ψευδορύακα τοῦ νωτῖου μέρους τοῦ
+                        ἀλωνήου τοῦ γέροντος Πολιέκτου, καὶ ἀπὸ τὸν ψευδορύακα τοῦ ἀνωτέρου γέροντος
+                        Πολιέκτου κατέρχεται εἰς τὴν πέρασιν τοῦ ῥύακως τῶν λάκκων καὶ κατέρχεται ὁ
+                        ῥύαξ τῶν λάκκων ἕως τοῦ σταυροῦ τῆς βασιλεικῆς ὡδοῦ πλησῖον τοῦ Ἁγίου Πέτρου
+                        καὶ κατέρχεται ὁ ῥύαξ ἕως τῆς μέσης ὡδοῦ τοῦ Κάμπου ἐν ὦ ἡ ἐνάρξης καὶ
+                        συνκλήει· τοῦ εἶναι αὐτῆς ῥηθείσης ἁγίας μονῆς ταῦτα τὰ χωράφια καὶ τὸ ὃν
+                        ὅρος ἐν τὸ ῥηθέντι μετοχίω τοῦ Ἁγίου Φιλίππου καὶ ἐν τῶ ἡγουμενεύωντι κῦρ
+                        Γρηγορίω καὶ τοῖς μετέπητα αὐτοῦ διαδόχοις μέχρι τερμάτων αἰώνων· καὶ ὡς ὑπὸ
+                        ἡμῶν στερχθέντα καὶ κηρωθέντα πεποίηκά σοι τὸ παρὸν σιγίλλιον ἐν τῆ
+                        προλεχθήση ἁγία μονῆ τοῦ Ἁγίου Θαλλαιλέου εἰς βεβαίωσιν πάντων τοῦ μηδ’ὅλως
+                        παρά τινος ἀποκρουσθῆναι. Εἰ δὲ καὶ φωραθεῖ τις τοῦτω παρακροῦσαι οὐ μηκρὰν
+                        ἔξει παρ’ἡμῶν ἀγανάκτησιν ἐχεῖ δὲ καὶ τὸ ἀνάθεμα παρὰ πατρὸς καὶ υἱοῦ καὶ
+                        ἁγίου πνεύματος ἀμήν. Τούτω δὲ σφραγίσας τῆ συνήθει ἡμῶν βούλλη διαμολήβδω
+                        ἐπεδώθη τῶ ῥῃθέντη καθηγουμένου μονῆς Ἁγίου Φιλίππου Δεμέννων μηνὴ καὶ
+                        ἰνδικτιῶνι τῆς προγεγραμμένης ἔτος ‚ςχ’. Ροκέρης κόμης. +</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>Pirri, Sicilia sacra I, p. 495; Starrabba, Diplomi, pp. 1-2 n. 1; Giunta,
-                    Donaria, pp. 97-99; Fulci, Storia, pp. 113-114 n. 1; Becker, Documenti,
-                    pp.49-52.</p>
+                <p>Cusa, Diplomi, pp. 385-87; Spata, Per. Gr. AP, pp. 163-65; Becker, Documenti, pp.
+                    89-91.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>

@@ -7,19 +7,19 @@
                 <title>Messina, 1082</title>
             </titleStmt>
             <editionStmt>
-                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                <edition>Digital edition encoded for <ref target="https://ivanre1987.github.io/clavem-siciliae/">Clavem Siciliae</ref>
                     <date when="2021">2021</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <publisher>Fiscus - DISCI UniBo</publisher>
+                <publisher>Ivan Re</publisher>
                 <idno type="filename">doc0001</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
                         4.0)</licence>
                 </availability>
-                <date when="2021"/>
+                <date when="2022"/>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
